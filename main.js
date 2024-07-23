@@ -9,7 +9,7 @@ import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls
 // Set up scene, camera, and renderer
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 10);
-camera.position.set(-1,3,4)
+camera.position.set(0,4,4)
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
